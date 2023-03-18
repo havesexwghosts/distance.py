@@ -114,6 +114,15 @@ class application():
         self.open_folder = CTkButton(self.frame1, text="Open folder", height=30, width=150, command=lambda : self.openfolder())
         self.open_folder.place(x=10, y=210)
 
+        self.label2 = CTkLabel(self.frame1, text="Made by Watanabe, V2",  font=("Roboto",15))
+        self.label2.place(x=10, y=430)
+
+        self.label3 = CTkLabel(self.frame1, text="Updated the GUI with customtkinter. Use of threading module and minor bug fixes.",  font=("Roboto",12))
+        self.label3.place(x=10, y=460)
+
+        self.label4 = CTkLabel(self.frame1, text="GitHub repo: https://github.com/6ixess/distance.py.",  font=("Roboto",12))
+        self.label4.place(x=10, y=490)
+
         self.root.mainloop()
 
 if __name__ == "__main__":

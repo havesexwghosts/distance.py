@@ -1,6 +1,10 @@
-# Distance.py
-Selenium based app.
+# Selenium-Based Application for Distance Calculation | Distance.py
 
-Application that uses pandas to read values in the columns "Origem" and "Destino". Then with selenium, it automates the search of the shortest distance between the two adresses. Saving it in a .xlsx file in the "Result" column. The output file is named with time.strftime('%H.%M.%S').
+## Key Features:
+- **Pandas** reads and processes the addresses from the columns "Origem" and "Destino".
+- **Selenium** automates the web search for the shortest distance between the two addresses.
+- The results are saved in a new **Excel (.xlsx)** file, with the calculated distances placed in the "Result" column.
+- The output file is automatically named with the current time in the format `HH.MM.SS`.
 
-The GUI has been made using customtkinter. 
+## User Interface:
+A simple **CustomTkinter** GUI allows you to interact with the application seamlessly and input the necessary details.
